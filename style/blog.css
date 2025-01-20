@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* share style */
+.discription{
+    font-size: 20px;
+    color: rgba(128, 128, 128, 1);
+    font-weight: 400px;
+}
+.sc-title{
+    font-size: 46px;
+    font-weight: 700px;
+    text-align: center;
+    margin: 60px auto;
+}
+
+/* nav-bar-style */
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 20px 140px; */
+    height: 72px;
+    background-color: Admission;
+    border: 1px solid black;
+}
+.logo{
+    display: flex;
+}
+.school{
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 700px;
+}
+.menu-bar{
+    width: 387px;
+    margin: 20px 0px 20px 0px;
+}
+.menu{
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.menu-1{
+    color: orange;
+}
+.menu-2{
+    color: skyblue;
+}
+.menu-3{
+    color: rgba(5, 212, 223, 1);
+}
+.menu-4{
+    color: rgba(93, 88, 239, 1);
+}
+.nav-btn{
+    color: white;
+    border-radius: 12px;
+    background-color: orange;
+    height: 50px;
+    width: 197px;
+    border: none;
+}
+/* empowering style */
+.emp-container{
+    border: 1px solid green;
+    margin: 10px auto;
+    justify-content: space-between;
+    display: flex;
+    width: 1160px;
+}
+.emp-writing-area{
+    padding: 122px 0px 122px 0px;
+}
+.emp-title{
+    font-size: 56px;
+    font-weight: 700px;
+    padding-bottom: 24px;
+    text-align: justify;
+}
+.span-yellow{
+    color: rgba(254, 163, 1, 1);
+}
+.span-blue{
+    color: rgba(1, 172, 253, 1);
+}
+.emp-btn{
+    height: 50px;
+    width: 197px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 45px;
+    margin-top: 30px;
+}
+.emp-btn:hover{
+    background-color: orange;
+    border: none;
+}
+/* standard curriculum */
+.sc-card{
+    border: 1px solid green;
+    margin: 10px auto;
+    justify-content: space-between;
+    display: flex;
+    width: 1160px;
+    height: 490px;
+    align-items: center;
+}
+.card-one{
+    width: 365px;
+    height: 430px;
+    text-align: center;
+    background-color: rgb(242, 250, 253);
+    padding-top: 60px;
+}
+.card-two{
+    width: 365px;
+    height: 430px;
+    text-align: center;
+    background-color: rgb(255, 251, 242);
+    border-bottom: 18px;
+    padding-top: 60px;
+}
+.card-three{
+    width: 365px;
+    height: 430px;
+    text-align: center;
+    background-color: rgb(246, 240, 255);
+    padding-top: 60px;
+}
+.card-img{
+    padding: ;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 700px ;
+    padding: 32px 0px;
+}
+.card-one a{
+    height: 28px;
+    width: 100px;
+    color:rgba(100, 200, 255, 1);
+    text-decoration: none;
+}
+.card-two a{
+    height: 28px;
+    width: 100px;
+    color:rgba(240, 170, 0, 1);
+    text-decoration: none;
+}
+.card-three a{
+    height: 28px;
+    width: 100px;
+    color:rgba(135, 0, 255, 1);
+    text-decoration: none;
+}
+.sc-discription{
+    margin-bottom: 25px;
+}
+ .getarthan-lesthan{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+ }
+ .sc-lesthan{
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    font-size: 24px;
+ }
+ /* our stories style */
+ .our-stories-container{
+    display: grid;
+    grid-template-columns: auto repeat(2,1fr);
+    border: 1px solid green;
+    margin: 10px auto;
+    justify-content: space-between;
+    width: 1160px;
+ }
