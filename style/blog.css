@@ -321,11 +321,21 @@
 
 /* responsive start */
 @media screen and (max-width: 576px){
-    .sc-card, .emp-title {
+    .sc-card, .emp-title, 
+    .nav-bar {
         flex-direction: column;
     }
-    .grid-template-columns{
+    .our-stories-card-one{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .our-stories-card-one img{
+        grid-template-columns: repeat(1, 1fr);
+        height: 200px;
+        width: 270px;
+    }
+    .our-stories-right-site {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 800px;
     }
     .sc-card{
         margin-bottom: 880px;
@@ -334,9 +344,27 @@
     .emp-container {
         flex-direction: column-reverse;
         padding-left: 10px;
+        width: 90%vw;
+    }
+    .emp-container img{
+        width: 270px;
     }
     .emp-title{
         font-size: 46px;
     } 
+    .nav-bar .menu-bar, .nav-btn{
+        visibility: hidden;
+    }
+    
+    .footer-container, .footer-area{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 100px;
+        border: none;
+    }
+    .footer-area-three{
+        margin-top: 30px;
+    }
    
 }
