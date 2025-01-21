@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-
 /* share style */
 .discription{
     font-size: 20px;
@@ -16,7 +15,7 @@
     margin: 60px auto;
 }
 #website-body{
-    background-image: url(../assets/bg.png);
+    background-image: linear-gradient(#00000000, #fcf9f7, #d3b178cc), url(../assets/bg.png);
 }
 /* nav-bar-style */
 .nav-bar{
@@ -101,6 +100,7 @@
 .emp-btn:hover{
     background-color: orange;
     border: none;
+    color: blueviolet;
 }
 /* standard curriculum */
 .sc-card{
@@ -116,16 +116,18 @@
     width: 365px;
     height: 430px;
     text-align: center;
-    background-color: rgb(242, 250, 253);
     padding-top: 60px;
+    border-radius: 10px;
+    background-image: linear-gradient(#00d8ff2e, #ffffff, #00000005);
 }
 .card-two{
     width: 365px;
     height: 430px;
     text-align: center;
-    background-color: rgb(255, 251, 242);
     border-bottom: 18px;
     padding-top: 60px;
+    border-radius: 10px;
+    background-image: linear-gradient(#deb88736, #ffffff00, #00000003); 
 }
 .card-three{
     width: 365px;
@@ -133,6 +135,8 @@
     text-align: center;
     background-color: rgb(246, 240, 255);
     padding-top: 60px;
+    border-radius: 10px;
+    background-image: linear-gradient(#8a2be233, #ffffff, #ffffff);
 }
 .card-img{
     padding: ;
@@ -181,7 +185,7 @@
  /* our stories style */
  #body-bg{
     background-image: url(../assets/bg.png);
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
  }
  .our-stories-container{
@@ -194,17 +198,19 @@
 .our-stories-right-site{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 18px;
+    row-gap: 30px;
+    column-gap: 60px;
     border-radius: 40px;
 }
-.our-stories-card-one{
+.our-stories-card-one, .our-stories-card-two, .our-stories-card-three, .our-stories-card-four, .our-stories-card-five{
     height: 725px;
     /* border: 4px solid green; */
-    border-radius: 55px;
+    border-radius: 15px;
+    background-color: white;
 }
 .our-stories-card-one img{
     height: 430px;
-    width: 540px;
+    width: 620px;
 }
 .stories-date{
     color: white;
@@ -228,22 +234,27 @@
 }
 .our-stories-right-site img{
     height: 177px;
-    width: 291px;
+    width: 350px;
 }
 .our-stories-card{
     height: 350px;
     width: 290px;
+    width: 350px;
     /* border: 4px solid green; */
-    border-radius: 28px;
+    border-radius: 15px;
 }
 .stories-titles{
    justify-content: center;
    max-width: 1440px;
+   padding-left: 35px;
+   padding-top: 30px;
 }
 #stories-btn{
     max-width: 1440px;
-    margin: 30px auto;
+    margin: 0px auto;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 .stories-btn{
     font-size: 20px;
@@ -279,6 +290,7 @@
 }
 .footer-discription{
    padding-left: 30px;
+   font-size: 28px;
 }
 .footer-img-title{
     display: flex;
@@ -296,4 +308,18 @@
 }
 .footer-area-three-img{
    margin-top: 30px;
+}
+
+/* responsive start */
+@media screen and (max-width: 576px){
+    .nav-bar, .emp-container, .sc-card , our-stories-container ,.footer-list, .footer-img-title    
+    .footer-area{
+        flex-direction: columns;
+    }
+    .emp-container, our-stories-container, .footer-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .menu-bar{
+        text-decoration: hi;
+    }
 }
