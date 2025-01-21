@@ -309,17 +309,34 @@
 .footer-area-three-img{
    margin-top: 30px;
 }
+.footer-list-main{
+    font-size: 25px;
+}
+.footer-area-two{
+    margin-top: -30px;
+}
+.footer-area-three{
+    margin-top: -100px;
+}
 
 /* responsive start */
 @media screen and (max-width: 576px){
-    .nav-bar, .emp-container, .sc-card , our-stories-container ,.footer-list, .footer-img-title    
-    .footer-area{
-        flex-direction: columns;
+    .sc-card, .emp-title {
+        flex-direction: column;
     }
-    .emp-container, our-stories-container, .footer-list{
+    .grid-template-columns{
         grid-template-columns: repeat(1, 1fr);
     }
-    .menu-bar{
-        text-decoration: hi;
+    .sc-card{
+        margin-bottom: 880px;
+        gap: 50px;
     }
+    .emp-container {
+        flex-direction: column-reverse;
+        padding-left: 10px;
+    }
+    .emp-title{
+        font-size: 46px;
+    } 
+   
 }
