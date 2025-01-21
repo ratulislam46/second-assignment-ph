@@ -345,6 +345,7 @@
         flex-direction: column-reverse;
         padding-left: 10px;
         width: 90%vw;
+        text-align: center;
     }
     .emp-container img{
         width: 270px;
